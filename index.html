@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mwu labs</title>
+    <link rel="canonical" href="https://mwulabs.com/" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Outfit"
+    />
+  </head>
+  <body>
+    <style>
+      body {
+        background: #000000;
+        font-family: "Outfit", monospace, sans-serif;
+      }
+
+      .header {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 5em 0 2.5em 0;
+      }
+
+      .logo {
+        width: fit-content;
+      }
+
+      .logo img {
+        width: auto;
+        height: 10em;
+      }
+
+      main {
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+      }
+
+      main .dots {
+        font-size: 1rem;
+        letter-spacing: 1rem;
+        text-indent: 1rem;
+      }
+
+      main .dots:hover {
+        letter-spacing: 0;
+        text-indent: 0;
+      }
+
+      main .dots:hover span {
+        display: none;
+      }
+
+      main .dots:hover:before {
+        content: "🚀 launching soon";
+        color: #ffffff;
+      }
+
+      main .name {
+        font-size: 1rem;
+        letter-spacing: 0.5rem;
+        text-indent: 0.5rem;
+      }
+    </style>
+
+    <div class="header">
+      <div class="logo">
+        <img src="assets/logo.svg" alt="mwu labs logo" />
+      </div>
+    </div>
+
+    <main>
+      <div class="dots"><span>........</span></div>
+      <br />
+      <div class="name">michael wu</div>
+    </main>
+  </body>
+</html>
